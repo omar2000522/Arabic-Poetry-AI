@@ -38,14 +38,8 @@ n_to_chars = {0: '\n', 1: ' ', 2: 'ء', 3: 'آ', 4: 'أ', 5: 'ؤ', 6: 'إ', 7: '
 وما خفت منها البين حتى تزعزعت
 هماليجها وازور عني دليلها'''
 
-unparsedInput = '''كان يوما جميلا حتى أكلت الزج
-انجت نيجا عظيما من الكلاب
-
-يالها من نيجة قوية لم اتوقعها
-كدت ان اموت من النيجة'''
-
-    #input("Your input for the prediction: ")
-textLen = int(input("Number of chars: "))
+unparsedInput = input("Your input text for the prediction: ")
+textLen = int(input("Number of chars to predict: "))
 
 X = []
 
